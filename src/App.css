@@ -1,0 +1,114 @@
+* {
+  /* font-family: 'plus jakarta sans'; */
+  font-family: 'Bahnschrift';
+  outline: none;
+}
+
+.link {
+  font-weight: light;
+  font-size: .92em;
+  cursor: pointer;
+  background: transparent;
+  transition: all ease-out .23s;
+  padding: .4em 1em;
+  border-radius: 90px;
+}
+
+.link:not(.signUp):hover {
+  background: #69696989;
+}
+
+.link:not(.signUp):active {
+  background: #696969c8;
+}
+
+.link.signUp:is(:hover, :active) {
+  background: #dedede;
+}
+
+
+.underline {
+  content: '';
+  position: absolute;
+  background: #000;
+  height: 4px;
+  width: 80px;
+  bottom: 0;
+  transition: cubic-bezier(0, 0.82, 0.165, 1) .38s;
+}
+
+.DropDown {
+  border-radius: 0 0 10px 10px;
+  width: max-content;
+  transition: all ease-out .23s;
+
+}
+
+.DropDown .li {
+  font-size: small;
+  color: gray;
+  padding: 9px 10px;
+  padding-right: 4em;
+  letter-spacing: .2px;
+  width: 100%;
+  cursor: pointer;
+  font-family: 'plus jakarta sans';
+  transition: color .23s ease-out;
+}
+
+.DropDown .li:hover {
+  color: #000;
+  background: #e5e9eb7b;
+}
+
+.learnMore {
+  border-bottom: .5px solid #ccc;
+  width: max-content;
+  padding-bottom: 4px;
+  color: #737373;
+  position: relative;
+  font-size: .9em;
+}
+
+.learnMore::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: .5px;
+  margin-bottom: -.5px;
+  background: black;
+  bottom: 0;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+.learnMore:hover:before {
+  width: 100%;
+}
+
+.scrollBtn {
+  position: relative;
+  transition: ease-out 100ms, bottom cubic-bezier(0.175, 0.885, 0.32, 1.275) .6s ;
+}
+
+.scrollBtn::before {
+  content: 'Scroll to top';
+  background: #525252;
+  padding: 5px 10px;
+  border-radius: 50px;
+  position: absolute;
+  align-self: start;
+  height: max-content;
+  color: #fff;
+  width: max-content;
+  margin-top: -1em;
+  scale: .2;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .6s;
+  opacity: 0;
+}
+
+
+.scrollBtn:hover:before {
+  margin-top: -3em;
+  scale: .8;
+  opacity: 1;
+}
