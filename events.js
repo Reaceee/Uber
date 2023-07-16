@@ -13,16 +13,3 @@
 //     })
 // })
 
-// setInterval(() => {
-//     // console.log(window.scrollY)
-//     if (window.scrollY < 300) {
-//         document.querySelector('.scrollBtn').style.bottom = '-2.5rem'
-//     }
-//     else {
-//         document.querySelector('.scrollBtn').style.display = 'flex'
-//         document.querySelector('.scrollBtn').style.bottom = '2.5rem'
-
-
-
-//     }
-// }, 300)
