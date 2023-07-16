@@ -1,6 +1,5 @@
 
 
-
 const Body = (props) => {
     const sendIcon = <svg className=" hover:opacity-80 opacity-40 duration-75" aria-hidden="true" focusable="false" width="16px" height="16px" fill="currentColor" viewBox="0 0 24 24" tabindex="0" role="button" aria-label="Locate me" class="pe-location-fetch css-ZSBbY"><path d="M10.5 13.5L.5 11 21 3l-8 20.5-2.5-10z"></path></svg>
     return (

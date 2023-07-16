@@ -11,6 +11,7 @@ import business from '../assets/images/Bg2.jpg'
 import Focused from '../components/focused.jsx'
 
 const Home = () => {
+    
     const underline = React.useRef()
     const [HeroBg, SetHeroBg] = React.useState(earnerBg)
     const [heroTitle, SetHeroTitle] = React.useState('Get in the driver’s seat and get paid')

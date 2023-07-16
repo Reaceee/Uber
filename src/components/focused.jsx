@@ -8,7 +8,6 @@ const focused = () => {
     const [title, setTitle] = React.useState('Our commitment to your safety')
 
     const [text, setText] = React.useState("With every safety feature and every standard in our Community Guidelines, we're committed to helping to create a safe environment for our users.")
-    // const [link, setLink] = React.useState("Read about our Community Guidelines")
 
     return (
         <>
@@ -17,8 +16,8 @@ const focused = () => {
                     Focused on safety, wherever you go
                 </p>
                 <div className="Cards gap-6 flex md:flex-row flex-col">
-                <Card img={pic1} title={title} text={text} links={["Read about our Community Guidelines", "See all safety features"]}/>
-                <Card img={pic2} title={"Setting 10,000+ cities in motion"} text={"The app is available in thousands of cities worldwide, so you can request a ride even when you’re far from home."} links={["View all cities"]}/>
+                <Card id='0' img={pic1} title={title} text={text} links={["Read about our Community Guidelines", "See all safety features"]}/>
+                <Card id='1' img={pic2} title={"Setting 10,000+ cities in motion"} text={"The app is available in thousands of cities worldwide, so you can request a ride even when you’re far from home."} links={["View all cities"]}/>
                 </div>
             </div>
         </>
