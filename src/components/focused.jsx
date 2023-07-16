@@ -1,8 +1,8 @@
 import React from 'react'
 
 import Card from './focusCard.jsx'
-import pic1 from '../assets/images/pic1.webp'
-import pic2 from '../assets/images/pic2.webp'
+import pic1 from '../assets/images/Pic1.webp'
+import pic2 from '../assets/images/Pic2.webp'
 
 const focused = () => {
     const [title, setTitle] = React.useState('Our commitment to your safety')
